@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>持续集成看板 - version 0.3</title>
+		<meta name="description" content="A Collection of Page Transitions with CSS Animations" />
+		<meta name="keywords" content="page transition, css animation, website, effect, css3, jquery" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<link rel="stylesheet" type="text/css" href="css/multilevelmenu.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<link rel="stylesheet" type="text/css" href="css/animations.css" />
+		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>	
+		
+		<div class="pt-triggers">
+			<button id="iterateEffects" class="pt-touch-button">下一张</button>
+		</div>
+
+		<!-- 设置访问页面 -->
+		<div id="pt-main" class="pt-perspective">
+			<div class="pt-page pt-page-1"><iframe width="1280" height="1280" 
+																						 src="http://weibo.com/"
+																						 style="background:white;">
+																		</iframe>
+			</div>
+			<div class="pt-page pt-page-2"><iframe width="1280" height="1280" 
+																						 src="http://www.163.com/" 
+																						 style="background:white;">
+																		</iframe>
+			</div>
+			<div class="pt-page pt-page-3"><iframe width="1280" height="1280" 
+																						 src="http://benweet.github.io/stackedit/"
+																						 style="background:white;">
+																		</iframe>
+			</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/jquery.dlmenu.js"></script>
+		<script src="js/pagetransitions.js"></script>
+
+		<script type="text/javascript">
+			// 实现页面切换
+			function next_frame()
+			{
+				$(iterateEffects).click();
+			}
+			setInterval("next_frame()", 15*1000);
+
+			// 实现iframe刷新
+			function iframe_reload()
+			{
+				iframes = document.getElementsByTagName('iframe');
+				for (var i = iframes.length - 1; i >= 0; i--) {
+					iframes[i].src = iframes[i].src
+				};
+			}
+			setInterval("iframe_reload()", 60*1000);
+		</script>
+
+	</body>
+</html>

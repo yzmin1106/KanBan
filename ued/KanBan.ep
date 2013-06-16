@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<Document xmlns="http://www.evolus.vn/Namespace/Pencil"><Properties/><Pages><Page><Properties><Property name="name">Untitled Page</Property><Property name="id">1371388910999_6025</Property><Property name="width">946</Property><Property name="height">711</Property><Property name="dimBackground"/><Property name="transparentBackground"/><Property name="backgroundColor">#ffffff</Property></Properties><Content><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Window" id="0794d683c8d74eb8823239ff49d04687" transform="matrix(1,0,0,1,33,36)"><p:metadata><p:property name="box"><![CDATA[872,608]]></p:property><p:property name="headerHeight"><![CDATA[0,72.96]]></p:property><p:property name="titleText"><![CDATA[浏览器窗口]]></p:property><p:property name="textColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|13px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="headerColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="withShadow"><![CDATA[true]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="100%" y2="0%" p:name="linearFill" id="9710c977eb6f4f9baebb886dd348b12f">
+                    <stop style="stop-color:#165C80;stop-opacity:1" offset="0" p:name="stop1" id="ab5aaa43619d4622a70bf02a4a5bc05b"/>
+                    <stop style="stop-color:#0A7AB4;stop-opacity:1" offset="0.5" p:name="stop2" id="ec7eeed746154e28bd85fc0fc4998a30"/>
+                    <stop style="stop-color:#165C80;stop-opacity:1" offset="1" p:name="stop3" id="dc63d311fbc540fd8412fb8a56c98186"/>
+                </linearGradient>
+            </defs>
+            <rect width="872" height="608" rx="0" ry="0" x="3" y="3" style="fill: rgb(0, 0, 0); fill-opacity: 0.2; stroke: none; visibility: visible;" p:name="shadowBox" id="946e17b202bc4adb9ace14759b415414"/>
+            <rect width="871" height="607" rx="0" ry="0" x="0.5" y="0.5" style="fill: none;stroke: #005481; stroke-width:1; stroke-linejoin:round;" p:name="outBorder1" id="57e277e70f3b4f549fd3efa92bd81aa3"/>
+            <rect width="869" height="605" rx="0" ry="0" x="1.5" y="1.5" style="fill: none;stroke: #18B0FF; stroke-width:1; stroke-linejoin:round;" p:name="outBorder2" id="9dd8efd149de4f2f935f5e52be680cf9"/>
+            <rect width="868" height="27" rx="0" ry="0" x="2" y="2" style="fill: url(#9710c977eb6f4f9baebb886dd348b12f); stroke: none;" p:name="titleBg" id="27259df962d740ab9834f2b7f1832e1f"/>
+            <rect width="867" height="576" rx="0" ry="0" x="2.5" y="29.5" style="fill: #EDE9E3; stroke: #0071AC; stroke-width:1;stroke-linejoin:round;" p:name="contentBg" id="49ba42eb4e284a81ba2ee671454bbeb0"/>
+            <text x="31.5" y="17.25" style="font-size: 13px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 0.333333; text-decoration: none;" xml:space="preserve" p:name="shadowText" id="162df9db0b8946a690eec6dafcc2f37c" transform="translate(373,-2)">浏览器窗口</text>
+            <text x="31.5" y="17.25" style="font-size: 13px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(255, 255, 255); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="06735babd3244b0897c334d5392c9e26" transform="translate(372,-3)">浏览器窗口</text>
+            <rect width="866" height="42.96" rx="0" ry="0" x="3" y="30" style="fill: rgb(255, 255, 255); stroke: none; fill-opacity: 1;" p:name="headerBar" id="71058746a2e749d894f4a1328b83ea86"/>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Panel" id="6ffbfb7c98404fdba55c9ff486ccef41" transform="matrix(1,0,0,1,36,66)"><p:metadata><p:property name="box"><![CDATA[867,44]]></p:property><p:property name="withBlur"><![CDATA[true]]></p:property></p:metadata>
+            <defs>
+                <filter height="1.2558399" y="-0.12792" width="1.06396" x="-0.03198" p:name="shadingFilter" id="8346c8a32f374792848e037f6f51da82">
+                    <feGaussianBlur stdDeviation="1.3325" in="SourceAlpha"/>
+                </filter>            
+                <rect x="0" y="0" width="867" height="44" style="stroke: none; fill-opacity:1; fill: #ede9e3;" p:name="rect" id="b88677b1e0894dffa4c624746d2de7de"/>                    
+            </defs>
+            <use xlink:href="#b88677b1e0894dffa4c624746d2de7de" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(2, 2)" p:filter="url(#8346c8a32f374792848e037f6f51da82)" style="opacity: 0.6; visibility: visible;" p:heavy="true" p:name="bgCopy" id="ba65e1444ebb4650bc4e5cd2a026f7da" filter="url(#8346c8a32f374792848e037f6f51da82)"/>
+            <use xlink:href="#b88677b1e0894dffa4c624746d2de7de" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Window" id="c7e2e808a68043b5adca0874c8fefa5e" transform="matrix(1,0,0,1,152,140)"><p:metadata><p:property name="box"><![CDATA[605,501]]></p:property><p:property name="headerHeight"><![CDATA[0,60.12]]></p:property><p:property name="titleText"><![CDATA[可切换的iframe]]></p:property><p:property name="textColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|13px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="headerColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="withShadow"><![CDATA[true]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="100%" y2="0%" p:name="linearFill" id="4e86ceb3389a4ce08707a79bc6f6ec18">
+                    <stop style="stop-color:#165C80;stop-opacity:1" offset="0" p:name="stop1" id="898eb7700ba64d9fb30285cc18a0332a"/>
+                    <stop style="stop-color:#0A7AB4;stop-opacity:1" offset="0.5" p:name="stop2" id="bf0a4b9171df4a4aa438092847b80648"/>
+                    <stop style="stop-color:#165C80;stop-opacity:1" offset="1" p:name="stop3" id="882481cf314a4424b5fcb4aa57162c66"/>
+                </linearGradient>
+            </defs>
+            <rect width="605" height="501" rx="0" ry="0" x="3" y="3" style="fill: rgb(0, 0, 0); fill-opacity: 0.2; stroke: none; visibility: visible;" p:name="shadowBox" id="879355c769ee4b76bc6af558135c7fa7"/>
+            <rect width="604" height="500" rx="0" ry="0" x="0.5" y="0.5" style="fill: none;stroke: #005481; stroke-width:1; stroke-linejoin:round;" p:name="outBorder1" id="af2c3168827841e5a06c7bee46ecaead"/>
+            <rect width="602" height="498" rx="0" ry="0" x="1.5" y="1.5" style="fill: none;stroke: #18B0FF; stroke-width:1; stroke-linejoin:round;" p:name="outBorder2" id="234af57dc5f24585a8d66bb90b97aaaf"/>
+            <rect width="601" height="27" rx="0" ry="0" x="2" y="2" style="fill: url(#4e86ceb3389a4ce08707a79bc6f6ec18); stroke: none;" p:name="titleBg" id="40a27f3a70e54f6d8b2c595512bd1752"/>
+            <rect width="600" height="469" rx="0" ry="0" x="2.5" y="29.5" style="fill: #EDE9E3; stroke: #0071AC; stroke-width:1;stroke-linejoin:round;" p:name="contentBg" id="c7a07e57b6c34dd188ad37fc407ee6b8"/>
+            <text x="31.5" y="17.25" style="font-size: 13px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 0.333333; text-decoration: none;" xml:space="preserve" p:name="shadowText" id="4a588a6fdfbe41d780f178cccc58d141" transform="translate(225,-2)">可切换的iframe</text>
+            <text x="31.5" y="17.25" style="font-size: 13px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(255, 255, 255); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="7746ea4d640646b4a7a1d3981a599e2d" transform="translate(224,-3)">可切换的iframe</text>
+            <rect width="599" height="30.12" rx="0" ry="0" x="3" y="30" style="fill: rgb(255, 255, 255); stroke: none; fill-opacity: 1;" p:name="headerBar" id="d55140d092be4b0987ae232a0807c8f6"/>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Label" id="db99ad9f4c9241d986d013a535443eca" transform="matrix(1,0,0,1,175,98)"><p:metadata><p:property name="disabled"><![CDATA[false]]></p:property><p:property name="label"><![CDATA[]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|22px|none]]></p:property></p:metadata>
+              <text y="9.0077095" x="17.999992" style="font-size: 22px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="efc8b31854fa42e9832b90b79e64a9e5" transform="translate(-18,-3)"> </text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Window" id="68cbc9d130d3474d9a6b5d5b9826f89e" transform="matrix(1,0,0,1,152,92)"><p:metadata><p:property name="box"><![CDATA[389,26]]></p:property><p:property name="headerHeight"><![CDATA[0,20]]></p:property><p:property name="titleText"><![CDATA[当前iframe的描述]]></p:property><p:property name="textColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|13px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="headerColor"><![CDATA[#FFFFFFFF]]></p:property><p:property name="withShadow"><![CDATA[true]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="100%" y2="0%" p:name="linearFill" id="6aff14fc19314b26b59054b5f8d6afa2">
+                    <stop style="stop-color:#165C80;stop-opacity:1" offset="0" p:name="stop1" id="7610598ee3eb482f9c0aa01b0dcf7597"/>
+                    <stop style="stop-color:#0A7AB4;stop-opacity:1" offset="0.5" p:name="stop2" id="bcd251abec10449d93d17c5c241fb33e"/>
+                    <stop style="stop-color:#165C80;stop-opacity:1" offset="1" p:name="stop3" id="466a0a2a814e4005b7e6309193e3b8a4"/>
+                </linearGradient>
+            </defs>
+            <rect width="389" height="26" rx="0" ry="0" x="3" y="3" style="fill: rgb(0, 0, 0); fill-opacity: 0.2; stroke: none; visibility: visible;" p:name="shadowBox" id="e1c1d19ce33a45d392949646bfe0b977"/>
+            <rect width="388" height="25" rx="0" ry="0" x="0.5" y="0.5" style="fill: none;stroke: #005481; stroke-width:1; stroke-linejoin:round;" p:name="outBorder1" id="179ef07e5a06496c8178a985350fa3c6"/>
+            <rect width="386" height="23" rx="0" ry="0" x="1.5" y="1.5" style="fill: none;stroke: #18B0FF; stroke-width:1; stroke-linejoin:round;" p:name="outBorder2" id="e16bd2fd91344520a7367a78cdafea9d"/>
+            <rect width="385" height="27" rx="0" ry="0" x="2" y="2" style="fill: url(#6aff14fc19314b26b59054b5f8d6afa2); stroke: none;" p:name="titleBg" id="52ab6c742b2c4b01a8aba27246a0eed6"/>
+            <rect width="384" height="-6" rx="0" ry="0" x="2.5" y="29.5" style="fill: #EDE9E3; stroke: #0071AC; stroke-width:1;stroke-linejoin:round;" p:name="contentBg" id="f6359a353a6e4ac4968853895266f25f"/>
+            <text x="31.5" y="17.25" style="font-size: 13px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 0.333333; text-decoration: none;" xml:space="preserve" p:name="shadowText" id="2f74ea6f8cc046f1b02a29d5710c5763" transform="translate(110,-2)">当前iframe的描述</text>
+            <text x="31.5" y="17.25" style="font-size: 13px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(255, 255, 255); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="3b579ccc4ab649fa8960bf04f8e76494" transform="translate(109,-3)">当前iframe的描述</text>
+            <rect width="383" height="-10" rx="0" ry="0" x="3" y="30" style="fill: rgb(255, 255, 255); stroke: none; fill-opacity: 1;" p:name="headerBar" id="1bd8ce0bc2fb4d58b5e77f4fa2f4e00c"/>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="74194fd1ac8b45479650e8c83ad0cd80" transform="matrix(1,0,0,1,781,140)"><p:metadata><p:property name="box"><![CDATA[90,24]]></p:property><p:property name="buttonText"><![CDATA[上一页]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="99dcc4a1e4694d72868a58a414d2ab02">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="612d5f26595a46aba1b9db3dbf933a01"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="ca957612a28e4fe98d000851aa0df9aa"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="8256ab9901c6403abc3784df72a08f24"/>
+                </linearGradient>
+            </defs>
+            <rect width="89" height="23" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(&quot;#99dcc4a1e4694d72868a58a414d2ab02&quot;) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="03d8af088810422c94d7e60b0fcd3308"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="3907151220eb41a9b325e5d8f486b996" transform="translate(-4,-5)">上一页</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="157d8caa3d544a2480b416110a0abe7c" transform="matrix(1,0,0,1,781,182)"><p:metadata><p:property name="box"><![CDATA[90,24]]></p:property><p:property name="buttonText"><![CDATA[下一页]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="a3dfb88965f140dc8dc3e5b11935bef8">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="ff5fcd664b0f409f90b3f23d21d190a8"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="14c2add809074bdf99a621651d746ef9"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="fa8b723ec6d7482c8c45b2777d45c449"/>
+                </linearGradient>
+            </defs>
+            <rect width="89" height="23" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(&quot;#a3dfb88965f140dc8dc3e5b11935bef8&quot;) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="f0351fd112164b55bdcd671740512884"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="36d83a5ebc9d49fb931626abcb1fea3d" transform="translate(-4,-5)">下一页</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="c18e0896feac47ab9c9d73f3879b33c2" transform="matrix(1,0,0,1,781,231)"><p:metadata><p:property name="box"><![CDATA[90,24]]></p:property><p:property name="buttonText"><![CDATA[指定页]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="202c961188d9454eb3933f994bd9cbfa">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="d8b7a5ddce8547b38f207034887e27a9"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="58dc61a514f549a4b473f2995520656e"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="3b002c4662ac4878bbab6527e5e96004"/>
+                </linearGradient>
+            </defs>
+            <rect width="89" height="23" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(&quot;#202c961188d9454eb3933f994bd9cbfa&quot;) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="47bb20e35a9e44da8bddba9c352620eb"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="16d6cf3c2c1d4cbba425ff580f40660e" transform="translate(-4,-5)">指定页</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="f68f3fe996ea4462b4ef017bc295599e" transform="matrix(1,0,0,1,781,547)"><p:metadata><p:property name="box"><![CDATA[90,24]]></p:property><p:property name="buttonText"><![CDATA[暂停/继续]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="ea75a610f90345aba75d2e8631a63d4e">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="48973c088c4e4e4e81070c7cb1816d9e"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="22a09a3c8e7240e1986c9ff9c799c352"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="68ee827dbf794bd29dccf5eb6a1c3969"/>
+                </linearGradient>
+            </defs>
+            <rect width="89" height="23" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(&quot;#ea75a610f90345aba75d2e8631a63d4e&quot;) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="57c4b635bbec43cc8540ba0b7042b1e9"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="0bdbdf343e6c4cd49c18e2ba21c088f3" transform="translate(-14,-5)">暂停/继续</text>
+        </g><g xmlns="http://www.w3.org/2000/svg" p:type="Shape" xmlns:p="http://www.evolus.vn/Namespace/Pencil" p:def="Evolus.GTK.Widgets:Button" id="93910d3a611a46eaaebb1d4fb16d71f7" transform="matrix(1,0,0,1,781,586)"><p:metadata><p:property name="box"><![CDATA[90,24]]></p:property><p:property name="buttonText"><![CDATA[立即刷新]]></p:property><p:property name="textColor"><![CDATA[#000000FF]]></p:property><p:property name="textFont"><![CDATA[Liberation Sans|normal|normal|12px|none]]></p:property><p:property name="textAlign"><![CDATA[1,1]]></p:property><p:property name="disabled"><![CDATA[false]]></p:property></p:metadata>
+            
+            <defs>
+                <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" p:name="linearFill" id="cdf8e7c14a9d4fa9bfd5e896a0d20fdd">
+                    <stop style="stop-color:#fdfdfc;stop-opacity:1" offset="0" p:name="stop1" id="6474ecfffce842138643576cfbab39a4"/>
+                    <stop style="stop-color: rgb(235, 235, 235); stop-opacity: 1;" offset="0.7" p:name="stop2" id="147437c401114645b04fdc9486802a37"/>
+                    <stop style="stop-color: rgb(252, 252, 252); stop-opacity: 1;" offset="1" p:name="stop3" id="f666d6366adc40a79c1d71122b56d92b"/>
+                </linearGradient>
+            </defs>
+            <rect width="89" height="23" rx="3" ry="3" x="0.5" y="0.5" style="fill: url(&quot;#cdf8e7c14a9d4fa9bfd5e896a0d20fdd&quot;) none; stroke: rgb(161, 150, 133); stroke-width: 1; stroke-linejoin: round; stroke-opacity: 1;" p:name="rect" id="3bcd4db105e64abb93f0b47abfccc5d3"/>
+            <text x="31.5" y="17.25" style="font-size: 12px; font-style: normal; font-weight: normal; text-align: left; text-anchor: start; dominant-baseline: central; fill: rgb(0, 0, 0); font-family: Liberation Sans; fill-opacity: 1; text-decoration: none;" xml:space="preserve" p:name="text" id="ebffe112e97a49c5b3d675369e463139" transform="translate(-10,-5)">立即刷新</text>
+        </g></Content></Page></Pages></Document>
