@@ -43,6 +43,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script src="js/jquery.dlmenu.js"></script>
 		<script src="js/pagetransitions.js"></script>
+        <script src="config.js"></script>
 
 		<script type="text/javascript">
 			// 实现页面切换
@@ -62,6 +63,21 @@
 			}
 			setInterval("iframe_reload()", 60*1000);
 		</script>
+
+        <script type="text/javascript">
+            Object.prototype.keys = function ()
+            {
+                var keys = [];
+                for(var i in this) if (this.hasOwnProperty(i))
+                {
+                    keys.push(i);
+                }
+                return keys;
+            };
+            alert(target_urls.keys()[0]);
+            alert(target_urls.keys()[1]);
+            alert(target_urls.keys()[2]);
+        </script>
 
 	</body>
 </html>
