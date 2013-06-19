@@ -23,37 +23,27 @@
 
 		<!-- 设置访问页面 -->
 		<div id="pt-main" class="pt-perspective">
-			<div class="pt-page pt-page-1"><iframe width="1280" height="1280"
-																						 src="http://126.com/"
-																						 style="background:white;">
-																		</iframe>
-			</div>
-			<div class="pt-page pt-page-2"><iframe width="1280" height="1280"
-																						 src="http://www.163.com/"
-																						 style="background:white;">
-																		</iframe>
-			</div>
-			<div class="pt-page pt-page-3"><iframe width="1280" height="1280"
-																						 src="http://benweet.github.io/stackedit/"
-																						 style="background:white;">
-																		</iframe>
-			</div>
 		</div>
 
 
         <script src="config.js"></script>
         <script type="text/javascript">
-            var tmp_div = document.createElement('div');
-            tmp_div.setAttribute('class', 'pt-page pt-page-4');
 
-            var tmp_iframe = document.createElement('iframe');
-            tmp_iframe.setAttribute('width', '1280');
-            tmp_iframe.setAttribute('height', '1280');
-            tmp_iframe.setAttribute('src', target_urls[1]);
-            tmp_iframe.setAttribute('style', "background:white;");
+            for (var i = 0; i < target_urls.length/2; i++) {
+                var tmp_div = document.createElement('div');
+                var num = i + 1;
+                tmp_div.setAttribute('class', 'pt-page pt-page-' +
+                        num);
 
-            document.getElementById('pt-main').appendChild(tmp_div);
-            tmp_div.appendChild(tmp_iframe);
+                var tmp_iframe = document.createElement('iframe');
+                tmp_iframe.setAttribute('width', '1280');
+                tmp_iframe.setAttribute('height', '1280');
+                tmp_iframe.setAttribute('src', target_urls[i * 2 + 1]);
+                tmp_iframe.setAttribute('style', "background:white;");
+
+                document.getElementById('pt-main').appendChild(tmp_div);
+                tmp_div.appendChild(tmp_iframe);
+            }
         </script>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
