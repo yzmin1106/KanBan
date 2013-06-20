@@ -2,7 +2,9 @@ var PageTransitions = (function() {
 
 	var $main = $( '#pt-main' ),
 		$pages = $main.children( 'div.pt-page' ),
-		$iterate = $( '#iterateEffects' ),
+		$iterate_up = $( '#it-up' ),
+		$iterate_down = $( '#it-down' ),
+		$iterate_select = $( '#it-select' ),
 		animcursor = 1,
 		pagesCount = $pages.length,
 		current = 0,
@@ -37,20 +39,62 @@ var PageTransitions = (function() {
 			}
 		} );
 
-		$iterate.on( 'click', function() {
+		$iterate_up.on( 'click', function() {
 			if( isAnimating ) {
 				return false;
 			}
 			if( animcursor > 67 ) {
 				animcursor = 1;
 			}
-			nextPage( animcursor );
+			startPage = current;
+			if( current > 0 ) {
+				endPage = current - 1;
+			}
+			else {
+				endPage = pagesCount - 1;
+			}
+			current = endPage;
+			nextPage( animcursor, startPage, endPage);
 			++animcursor;
 		} );
-
+		$iterate_down.on( 'click', function() {
+			if( isAnimating ) {
+				return false;
+			}
+			if( animcursor > 67 ) {
+				animcursor = 1;
+			}
+			startPage = current;
+			if( current < pagesCount - 1 ) {
+				endPage = current + 1;
+			}
+			else {
+				endPage = 0;
+			}
+			current = endPage;
+			nextPage( animcursor, startPage, endPage);
+			++animcursor;
+		} );
+		$iterate_select.on( 'change', function() {
+		endPage = $( '#it-select' ).val() - 1;
+		if(isNaN(endPage))
+		{
+			endPage=0;
+		}
+		if( isAnimating ) {
+				return false;
+			}
+			if( animcursor > 67 ) {
+				animcursor = 1;
+			}
+			startPage = current;
+			current = endPage;
+			nextPage( animcursor, startPage, endPage);
+			++animcursor;
+		} );
 	}
 
-	function nextPage( animation ) {
+	function nextPage( animation , startPage, endPage) {
 
 		if( isAnimating ) {
 			return false;
@@ -58,16 +102,16 @@ var PageTransitions = (function() {
 
 		isAnimating = true;
 		
-		var $currPage = $pages.eq( current );
+		// var $currPage = $pages.eq( current );
 
-		if( current < pagesCount - 1 ) {
-			++current;
-		}
-		else {
-			current = 0;
-		}
-
-		var $nextPage = $pages.eq( current ).addClass( 'pt-page-current' ),
+		// if( current < pagesCount - 1 ) {
+		// 	++current;
+		// }
+		// else {
+		// 	current = 0;
+		// }
+		var $currPage = $pages.eq( startPage );
+		var $nextPage = $pages.eq( endPage ).addClass( 'pt-page-current' ),
 			outClass = '', inClass = '';
 
 		switch( animation ) {

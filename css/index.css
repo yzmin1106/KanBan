@@ -1,0 +1,11 @@
+.pt-up,.pt-down,.pt-select, .pt-start, .pt-reload{
+	width: 150px;
+}
+.pt-ctl{
+	width: 10%;
+	float: left;
+}
+.pt-show{
+	width: 90%;
+	float: left;
+}
