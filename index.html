@@ -88,10 +88,12 @@
 			function pause_and_go() {
 				if(timeSwitch) {
 					clearInterval(oTimer);
+                    document.getElementById('it-start').style.background = 'red';
 					timeSwitch = false;
 				}
 				else {
 					oTimer = setInterval("next_frame()", 15*1000);
+                    document.getElementById('it-start').style.background = '#fff';
 					timeSwitch = true;
 				}
 			}
