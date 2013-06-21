@@ -82,7 +82,7 @@
 			}
 			var oTimer = null;
 			var timeSwitch = true; 
-			oTimer = setInterval("next_frame()", 15*1000);
+			oTimer = setInterval("next_frame()", switch_interval * 1000);
 
 			// 暂停及继续页面切换
 			function pause_and_go() {
@@ -92,7 +92,7 @@
 					timeSwitch = false;
 				}
 				else {
-					oTimer = setInterval("next_frame()", 15*1000);
+					oTimer = setInterval("next_frame()", switch_interval * 1000);
                     document.getElementById('it-start').style.background = '#fff';
 					timeSwitch = true;
 				}
@@ -106,7 +106,7 @@
 					iframes[i].src = iframes[i].src
 				};
 			}
-			setInterval("iframe_reload()", 60*1000);
+			setInterval("iframe_reload()", refresh_interval * 1000);
 		</script>
 
 	</body>

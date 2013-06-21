@@ -4,3 +4,7 @@ target_urls = new Array(
     '网易',"http://www.163.com/",
     'Markdown',"http://benweet.github.io/stackedit/"
 );
+
+// 配置页面切换及刷新时间间隔
+switch_interval = 15;
+refresh_interval = 60;
